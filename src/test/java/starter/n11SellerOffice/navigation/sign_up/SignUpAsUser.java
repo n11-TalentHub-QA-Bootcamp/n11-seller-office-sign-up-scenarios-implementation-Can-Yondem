@@ -22,7 +22,7 @@ public class SignUpAsUser implements Task {
     private final String reemail_text;
     private final String nickname_text;
 
-    @Step("{0} sign up düzelt")
+    @Step("{0} Sign up with valid credentials")
     @Override
     public <T extends Actor> void performAs(T actor) {
 
