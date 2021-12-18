@@ -10,6 +10,6 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         //tags = "@login",
         //tags ="@cocoadslogin",
-        tags="@selleroffice-signup"
+        tags="@seller_office_sign_up"
 )
 public class CucumberTestSuite {}
